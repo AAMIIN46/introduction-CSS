@@ -1,0 +1,84 @@
+/* Your CSS goes here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #454f6f;
+  color: white;
+  height: 10vh;
+}
+.nav nav {
+  display: flex;
+  gap: 1.3rem;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sec1 {
+  color: white;
+
+  padding: 7rem;
+
+  align-items: center;
+  text-align: center;
+  background: #e6834c;
+}
+.sec1 h1 {
+  font-size: 4rem;
+}
+.sec1 h3 {
+  font-size: 2rem;
+}
+
+.opst1 {
+  margin: 2rem;
+  padding: 4rem;
+  text-align: center;
+  background: #dcdcdc;
+  border-radius: 1rem;
+  text-align: left;
+
+  line-height: 2rem;
+}
+.sec2 .posiyaray {
+  display: flex;
+}
+.post {
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
+  background: #dcdcdc;
+  border-radius: 1rem;
+  text-align: left;
+  line-height: 2rem;
+}
+footer {
+  text-align: center;
+  background: #e6834c;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    font-size: 1rem;
+  }
+  .nav nav{
+    font-size: 1rem;
+  }
+  .sec2 .posiyaray{
+    flex-wrap: wrap;
+  }
+}
